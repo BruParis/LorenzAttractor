@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 2.8)
-project( LorenzAttractor )
-find_package( OpenCV REQUIRED )
-add_executable( LorAttr main.cpp )
-target_link_libraries( LorAttr ${OpenCV_LIBS} )
