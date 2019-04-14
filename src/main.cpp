@@ -41,7 +41,7 @@ int main()
 
         time += time_delta;
 
-        viz::WCloud cloud_widget = viz::WCloud( points, viz::Color::green() );
+        viz::WPaintedCloud cloud_widget = viz::WPaintedCloud( points );
         cloud_widget.setRenderingProperty(viz::POINT_SIZE, 1);
 
         myWindow.showWidget( "Depth", cloud_widget );
